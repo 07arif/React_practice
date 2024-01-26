@@ -2,6 +2,7 @@
 
 import Invoked_JS from "./Invoked_JS";
 import JsOn from "./JsOn";
+import LoopJs from "./LoopJs";
 
 const Hero = () => {
     return (
@@ -17,6 +18,8 @@ const Hero = () => {
                     <JsOn />
                     <p>Invoked </p>
                     <Invoked_JS />
+                    <p>Loop</p>
+                    <LoopJs />
                 </div>
             </section>
         </div>
