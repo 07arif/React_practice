@@ -1,5 +1,6 @@
 // import React from 'react';
 
+import Invoked_JS from "./Invoked_JS";
 import JsOn from "./JsOn";
 
 const Hero = () => {
@@ -12,7 +13,10 @@ const Hero = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <button>Learn More</button>
                     <img src="link" alt="" />
+                    <p>Inline If else</p>
                     <JsOn />
+                    <p>Invoked </p>
+                    <Invoked_JS />
                 </div>
             </section>
         </div>
