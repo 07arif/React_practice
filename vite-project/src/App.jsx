@@ -1,13 +1,17 @@
+import ContactForm from "./component/ContactForm";
+import Footer from "./component/Footer";
+import Header from "./component/Header";
+import Hero from "./component/Hero";
 
-function App() {
-
+const App = () => {
   return (
-    <>
+    <div>
+      <Header />
+      <Hero />
+      <ContactForm />
+      <Footer />
+    </div>
+  );
+};
 
-      <h1>Hello world</h1>
-
-    </>
-  )
-}
-
-export default App
+export default App;
