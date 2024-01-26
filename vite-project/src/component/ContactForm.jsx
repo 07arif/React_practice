@@ -16,7 +16,7 @@ const ContactForm = () => {
                     <label htmlFor="message">Message:</label>
                     <textarea id="message" name="message" required />
                 </div>
-                <button type="submit">Submit</button>
+                <button onClick={() => alert('Hello')} type="submit">Submit</button>
             </form>
         </div>
     );
