@@ -7,6 +7,7 @@ import ConditionalRenderingLogical from "./ConditionalRenderingLogical";
 import ConditionalRenderingSwitch from "./ConditionalRenderingSwitch";
 import ConditionalRenderingTernary from "./ConditionalRenderingTernary";
 import DemoProps from "./DemoProps";
+import FormSubmit from "./FormSubmit";
 import Invoked_JS from "./Invoked_JS";
 import JsOn from "./JsOn";
 import LoopJs from "./LoopJs";
@@ -59,6 +60,7 @@ const Hero = () => {
                     <PassingObject item={itemObj} />
                     <PassingFunction ChildBtnClick={BtnClick} />
                     <ClickEvent />
+                    <FormSubmit />
                 </div>
             </section>
         </div>
