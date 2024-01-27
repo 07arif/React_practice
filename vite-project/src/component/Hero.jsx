@@ -1,5 +1,6 @@
 // import React from 'react';
 
+import ClickEvent from "./ClickEvent";
 import ConditionalRendering from "./ConditionalRendering";
 import ConditionalRenderingInvoked from "./ConditionalRenderingInvoked";
 import ConditionalRenderingLogical from "./ConditionalRenderingLogical";
@@ -9,8 +10,26 @@ import DemoProps from "./DemoProps";
 import Invoked_JS from "./Invoked_JS";
 import JsOn from "./JsOn";
 import LoopJs from "./LoopJs";
+import PassingFunction from "./PassingFunction";
+import PassingObject from "./PassingObject";
+
+
+
 
 const Hero = () => {
+
+    // function:
+    const BtnClick = () => {
+        alert('say hello !');
+    }
+
+    // Object 
+    const itemObj = {
+        name: 'Ariful Islam',
+        age: 28,
+        city: 'chittagong',
+    }
+
     return (
         <div>
 
@@ -37,7 +56,9 @@ const Hero = () => {
                     <p>Conditional Rendering using immediately Invoked function </p>
                     <ConditionalRenderingInvoked />
                     <DemoProps title='learn react' des='How to learn react props' />
-
+                    <PassingObject item={itemObj} />
+                    <PassingFunction ChildBtnClick={BtnClick} />
+                    <ClickEvent />
                 </div>
             </section>
         </div>
