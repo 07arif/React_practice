@@ -5,6 +5,7 @@ import ConditionalRenderingInvoked from "./ConditionalRenderingInvoked";
 import ConditionalRenderingLogical from "./ConditionalRenderingLogical";
 import ConditionalRenderingSwitch from "./ConditionalRenderingSwitch";
 import ConditionalRenderingTernary from "./ConditionalRenderingTernary";
+import DemoProps from "./DemoProps";
 import Invoked_JS from "./Invoked_JS";
 import JsOn from "./JsOn";
 import LoopJs from "./LoopJs";
@@ -35,6 +36,7 @@ const Hero = () => {
                     <ConditionalRenderingLogical />
                     <p>Conditional Rendering using immediately Invoked function </p>
                     <ConditionalRenderingInvoked />
+                    <DemoProps title='learn react' des='How to learn react props' />
 
                 </div>
             </section>
