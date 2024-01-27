@@ -1,23 +1,39 @@
-// import React from 'react';
-
-const ConditionalRendering = () => {
-
-    const status = true;
-
-    if (status == true) {
-        return (
-            <div>
-                <button>Logout</button>
-            </div>
-        );
+const LoginStatusBtn = (status) => {
+    if (status) {
+        return <button>Logout Btn</button>
     }
     else {
-        return (
+        return <button>Login Btn</button>
+    }
+}
+
+
+const ConditionalRendering = () => {
+    return (
+        <div>
+            <h1>Login Status</h1>
+            {LoginStatusBtn(false)}
+        </div>
+    )
+
+
+
+    /* conditional rendering using if else:
+        const status = false;
+    
+        if (status == true) {
+            return (
+                <div>
+                    <button>Logout</button>
+                </div>
+            )
+        }
+        else return (
             <div>
-                <button>Login</button>
+                <button>LogIn</button>
             </div>
         )
-    }
+    */
 };
 
 export default ConditionalRendering;
