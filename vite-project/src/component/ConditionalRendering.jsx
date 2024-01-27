@@ -11,7 +11,7 @@ const LoginStatusBtn = (status) => {
 const ConditionalRendering = () => {
     return (
         <div>
-            <h1>Login Status</h1>
+            <h1>Login Status using if els</h1>
             {LoginStatusBtn(false)}
         </div>
     )
