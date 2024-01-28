@@ -5,7 +5,8 @@ const UseRefHook = () => {
     let myHeadLine = useRef();
 
     const change = () => {
-        myHeadLine.current.innerText = 'hello Bangladesh'
+        myHeadLine.current.innerHTML = '<ul><li>A</li><li>B</li></ul>'
+        // myHeadLine.current.innerText = 'hello Bangladesh'
 
     }
 
