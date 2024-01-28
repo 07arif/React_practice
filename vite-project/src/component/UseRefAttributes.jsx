@@ -6,6 +6,8 @@ const UseRefAttributes = () => {
     let myImg = useRef();
     const change = () => {
         myImg.current.src = "https://placehold.co/600x400?text=Hello+World"
+        myImg.current.setAttribute('height', '300px')
+        myImg.current.setAttribute('width', '200px')
     }
     return (
         <div>
