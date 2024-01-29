@@ -6,6 +6,7 @@ import UseRefAttributes from "./component/UseRefAttributes";
 import UseRefCss from "./component/UseRefCss";
 import UseRefHook from "./component/UseRefHook";
 import UseRefInput from "./component/UseRefInput";
+import UseRefPersistedMutable from "./component/UseRefPersistedMutable";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <UseRefAttributes />
       <UseRefInput />
       <UseRefCss />
+      <UseRefPersistedMutable />
       <Footer />
     </div>
   );
